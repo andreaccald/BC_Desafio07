@@ -1,0 +1,12 @@
+
+.main {
+    & .section {
+        & .parte2 {
+            & h1 {
+                font-size: 25px;
+                font-weight: bolder;
+                background-color: pink;
+            }
+        }
+    }
+}
