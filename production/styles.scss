@@ -143,12 +143,11 @@ $tipografia:'Bai Jamjuree', sans-serif;;
     
     }
     &.article:first-child{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flexbox;
         width: 100%;
         height: auto;
         margin: auto;
-        &.img{
+        &img{
             grid-column: 1/2;
             height: 750px;
             padding-top: 50px;

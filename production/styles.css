@@ -118,13 +118,12 @@
   font-family: "Bai Jamjuree", sans-serif;
 }
 .Main.article:first-child {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flexbox;
   width: 100%;
   height: auto;
   margin: auto;
 }
-.Main.article:first-child.img {
+.Main.article:first-childimg {
   grid-column: 1/2;
   height: 750px;
   padding-top: 50px;
