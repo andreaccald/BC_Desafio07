@@ -1,27 +1,5 @@
-//colors
-$color1: hsl(171, 66%, 44%);
-$color2: hsl(233, 100%, 69%);
-$color3: hsl(210, 10%, 33%);
-$color4:hsl(201, 11%, 66%);
-$color5:white;
-//fonts 
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
-$fontSize:18px;
-$tipografia:'Bai Jamjuree', sans-serif;;
 
-.Body{
-    width: auto;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    background-color: $color5;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: $tipografia;
-    
-}
-.Header {
+/*.Header {
     width: auto;
     height: auto;
     background-image: url(./images/bg-header-desktop.png);
@@ -39,7 +17,7 @@ $tipografia:'Bai Jamjuree', sans-serif;;
 
     & h1{
         margin-bottom: 20px;
-        //font-family: $Bai-SemiBold;
+        font-family: $tipografia;
         color: $color3;
         font-size: 2rem;
         text-align: center;
@@ -48,7 +26,7 @@ $tipografia:'Bai Jamjuree', sans-serif;;
     & p{
         width: 70%;
         margin-bottom: 40px;
-        //font-family: $BaiRegular;
+       
         color: #B0B6B6;
         font-size: 1.5rem;
         text-align: center
@@ -78,15 +56,13 @@ $tipografia:'Bai Jamjuree', sans-serif;;
             color: #D7F7F4;
             background-color: #5DCCBB;
             border: 1px solid #5AC8B5;
-            box-shadow: 0px 0px 0px 1px #A0DDD4,
-                        0px 10px 15 1px #D0F9EC;
+            box-shadow: 0px 10px 15 1px #D0F9EC;
         }
 
         &.btn-2 {
             color: $color2;
             margin-left: 10px;
-            box-shadow: 0px 0px 0px 1px #8895E6,
-                        0px 10px 15px 1px #DFE3F9;
+            box-shadow: 0px 10px 15px 1px #DFE3F9;
             transition: all 500ms;
         }
 
@@ -95,8 +71,7 @@ $tipografia:'Bai Jamjuree', sans-serif;;
             color: #EDF7FD;
             background-color: #8896FF;
             border: 1px solid #8493FA;
-            box-shadow: 0x 0px 0px 1px #B8C3F0,
-                        0px 10px 15px 1px #EAEEF4;
+            box-shadow:0px 10px 15px 1px #EAEEF4;
         }
     }
 }
