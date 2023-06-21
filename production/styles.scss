@@ -35,7 +35,7 @@ $tipografia:'Bai Jamjuree', sans-serif;;
     width: auto;
     height: auto;
     background-image: url(../public/images/bg-header-desktop.png);
-    background-image: 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 
         padding: 110px;
@@ -59,10 +59,10 @@ $tipografia:'Bai Jamjuree', sans-serif;;
         }
         
         & p{
-            width: 70%;
+            width: 60%;
             margin-bottom: 40px;
             color: #B0B6B6;
-            font-size: 1.5rem;
+            font-size: $fontSize;
             text-align: center;
             
         }
@@ -106,28 +106,48 @@ $tipografia:'Bai Jamjuree', sans-serif;;
         }
     }
 //MAIN
-.Main{
-    font-family: $tipografia;
-    padding: 110px;
-    
-        &.parte1{
-            display: flex;
+.Main {
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    & .encabezado{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        & h2{
+            margin-top: auto;
+            margin-bottom: 20px;
+            font-family: $tipografia;
+            font-size: 2rem;
+            color: #4F575C;
             text-align: center;
-           
-            &h2{
-                display: flex;
-                text-align: center;
 
-            }
-            &p{
+        }
+        & p{
+            width: 50%;
+            margin-top: auto;
+        
+            color: #B3B8B8;
+            text-align: center;
+            font-style: $fontSize;
+            font-family: $tipografia;
 
-            }
 
 
         }
     
+    }
+    
 }
 
+  
 
 
 

@@ -20,7 +20,7 @@
   width: auto;
   height: auto;
   background-image: url(../public/images/bg-header-desktop.png);
-  background-image: 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   padding: 110px;
   display: flex;
@@ -41,10 +41,10 @@
   text-align: center;
 }
 .Header p {
-  width: 70%;
+  width: 60%;
   margin-bottom: 40px;
   color: #B0B6B6;
-  font-size: 1.5rem;
+  font-size: 18px;
   text-align: center;
 }
 .Header.botones {
@@ -87,17 +87,37 @@
 }
 
 .Main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Main .encabezado {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.Main .encabezado h2 {
+  margin-top: auto;
+  margin-bottom: 20px;
   font-family: "Bai Jamjuree", sans-serif;
-  padding: 110px;
-}
-.Main.parte1 {
-  display: flex;
+  font-size: 2rem;
+  color: #4F575C;
   text-align: center;
 }
-.Main.parte1h2 {
-  display: flex;
+.Main .encabezado p {
+  width: 50%;
+  margin-top: auto;
+  color: #B3B8B8;
   text-align: center;
+  font-style: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
 }
+
 .footer {
   background-color: rgb(245, 246, 248);
   color: rgb(111, 113, 116);
