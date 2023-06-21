@@ -1,37 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
-.footer {
-  background-color: rgb(245, 246, 248);
-  color: rgb(111, 113, 116);
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 10px 1fr;
-  gap: 20px;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
-}
-.footer .logo2 {
-  margin-top: 15px;
-}
-.footer .section2 {
-  margin-top: 15px;
-}
-.footer .section3 {
-  margin-top: 15px;
-}
-.footer .section4 {
-  margin-top: 15px;
-}
-.footer .section5 {
-  grid-column: 6/7;
-  margin-top: 15px;
-  display: inline-flex;
-}
-.footer .section5 .iconos {
-  margin: 17px;
-}
-.footer .section6 {
-  grid-column: 3/4;
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.Body {
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
 .Body {
@@ -112,4 +91,38 @@
   background-color: #8896FF;
   border: 1px solid #8493FA;
   box-shadow: 0x 0px 0px 1px #B8C3F0, 0px 10px 15px 1px #EAEEF4;
+}
+
+.footer {
+  background-color: rgb(245, 246, 248);
+  color: rgb(111, 113, 116);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 10px 1fr;
+  gap: 20px;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.footer .logo2 {
+  margin-top: 15px;
+}
+.footer .section2 {
+  margin-top: 15px;
+}
+.footer .section3 {
+  margin-top: 15px;
+}
+.footer .section4 {
+  margin-top: 15px;
+}
+.footer .section5 {
+  grid-column: 6/7;
+  margin-top: 15px;
+  display: inline-flex;
+}
+.footer .section5 .iconos {
+  margin: 17px;
+}
+.footer .section6 {
+  grid-column: 3/4;
 }/*# sourceMappingURL=styles.css.map */
