@@ -72,8 +72,7 @@ $tipografia:'Bai Jamjuree', sans-serif;;
         &.btn-1:hover {
             width: 200px;
             height: 50px;
-            background-color: $bg;
-            border: 1px solid $borde;
+            border: 1px solid;
             border-radius: 50px;
             cursor: pointer;
             color: #D7F7F4;
