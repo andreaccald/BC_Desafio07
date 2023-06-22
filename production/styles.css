@@ -1,9 +1,35 @@
-/*@import './styles/l-html';
-@import './styles/l-header';
-@import './styles/l-main';
-@import './styles/l-footer';*/
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.main .section article:nth-child(2) h1 {
+  font-size: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+.main .section article:nth-child(2) p {
+  display: flex;
+  justify-content: center;
+}
+.main .section article:nth-child(3) h1 {
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+.main .section article:nth-child(3) p {
+  display: flex;
+  justify-content: center;
+}
+.main .section article:nth-child(3) .grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*@import './styles/l-html';
+@import './styles/l-header';
+
+@import './styles/l-footer';*/
 .Body {
   width: auto;
   height: auto;
@@ -266,13 +292,6 @@
   .Main .encabezado h2 {
     font-size: 1.5rem;
     padding: 20px;
-  }
-  .Main .encabezado p {
-    width: 100%;
-    font-size: 1rem;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 30px;
   }
 }
 .footer {

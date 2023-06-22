@@ -1,0 +1,36 @@
+$display: flex;
+.main {
+    & .section {
+        & article:nth-child(2) {
+            & h1 {
+                font-size: 30px;
+                font-size: 30px;
+                font-weight: bolder;
+                display: $display;
+                justify-content: center;            
+            }
+            & p {
+                display: $display;
+                justify-content: center;
+            }
+        }
+        & article:nth-child(3) {
+            & h1 {
+                font-size: 30px;
+                margin-top: 50px;
+                font-weight: bolder;
+                display: $display;
+                justify-content: center;
+            }
+            & p {
+                display: $display;
+                justify-content: center;
+            }       
+            & .grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }        
+                
+            
+        }
+    }
+}
