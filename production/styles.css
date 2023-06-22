@@ -1,9 +1,32 @@
-/*@import './styles/l-html';
-@import './styles/l-header';
-@import './styles/l-main';
-@import './styles/l-footer';*/
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.main .section .parte2 h1 {
+  font-size: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+.main .section .parte2 p {
+  display: flex;
+  justify-content: center;
+}
+.main .section .parte3 h1 {
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+.main .section .parte3 p {
+  display: flex;
+  justify-content: center;
+}
+
+/*@import './styles/l-html';
+@import './styles/l-header';
+
+@import './styles/l-footer';*/
 .Body {
   width: auto;
   height: auto;
@@ -146,6 +169,20 @@
     margin-bottom: 30px;
   }
 }
+.Main.parte1p {
+  color: black;
+}
+
+/*main parte dos*/
+.main .section .parte2 {
+  background-color: azure;
+}
+.main .section .parte2 h1 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: pink;
+}
+
 .footer {
   background-color: rgb(245, 246, 248);
   color: rgb(111, 113, 116);

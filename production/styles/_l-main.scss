@@ -1,0 +1,31 @@
+$display: flex;
+.main {
+    & .section {
+        & .parte2 {
+            & h1 {
+                font-size: 30px;
+                font-size: 30px;
+                font-weight: bolder;
+                display: $display;
+                justify-content: center;            
+            }
+            & p {
+                display: $display;
+                justify-content: center;
+            }
+        }
+        & .parte3 {
+            & h1 {
+                font-size: 30px;
+                margin-top: 50px;
+                font-weight: bolder;
+                display: $display;
+                justify-content: center;
+            }
+            & p {
+                display: $display;
+                justify-content: center;
+            }
+        }
+    }
+}
