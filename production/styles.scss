@@ -168,7 +168,7 @@ $tipografia:'Bai Jamjuree', sans-serif;;
         width: 100%;
         display: flex;
         flex-direction: row;
-        margin:auto;
+        margin-left: -5%;
         & .pc{
             width: 40%;
             padding-left: -5%;
@@ -241,35 +241,55 @@ $tipografia:'Bai Jamjuree', sans-serif;;
                 align-items: center;
             }
         }
-        & .blacklist, .text, .preview{
-            & h3 {
-                height: auto;
-                margin-bottom: 5px;
-                color: $color3;
-                font-family: $tipografia;
-                font-size: 20px;
-            }
 
-            & p {
-                margin-top: 5px;
-                width: 80%;
-                font-family: $tipografia;
-                font-size: 15px;
-                color: $color4;
-            }
-        
+        & .parte-3{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
 
+
+            & .blacklists, .text, .preview{
+                width: 30%;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                height: 230px;
+                justify-content: center;
+
+                & img{
+                    width: 20%;
+                    padding-right: 20%;
+                }
+                                
+                & h3 {
+                    width: 80%;
+                    height: auto;
+                    margin-bottom: 5px;
+                    color: $color3;
+                    font-family: $tipografia;
+                    font-size: 1.2rem;
+                }
+
+                & p {
+                    margin-top: 5px;
+                    width: 80%;
+                    font-family: $tipografia;
+                    font-size: 1rem;
+                    color: $color4;
+                }
+            
+
+            }
         }
 
         & .logos{
+            width: 100%;
             height: auto;
-            display: flex;
-            flex-direction: row;
-        }
-        
-
-
+       }
+                
     
+               
     
     & .clipboard{
         width: 100%;
@@ -322,30 +342,172 @@ $tipografia:'Bai Jamjuree', sans-serif;;
             margin-right: 10px;
             margin-bottom: 10px;
             font-family: $tipografia;
+        }
             
 
     }
     
     }
 
-}
+
 @media (max-width:375px){
     .Main{
         & .encabezado{
-            padding:5px;
-            padding-top: 50px;
+            padding:0px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin:0;
+            margin-bottom: 20px;
+        
             & h2{
                 font-size: 1.5rem;
-                padding: 20px;
+                padding-top: 20px;
+                
+            }
+            & p{
+                font-size: 15px;
+                width: 80%;
+                margin:0px;
+                padding: 0px;
+
             }
           
         }
-        
+
+        & .parte-1{
+            display: block;
+            
+            justify-content: center;
+            & .pc{
+              
+                & img{
+                    width: 80%;
+                    margin-left: 10%;
+                    
+                    
+                }
+            }
+                
+            & .derecha{
+                width: 100%;
+                padding: 0px;
+                padding-bottom: 0px;
+                margin: 0;
+                text-align: center;
+                justify-content: center;
+                & h3{
+                    width: 80%;
+                }
+                & p{
+                    width: 80%;
+                    text-align: center;
+                    justify-content: center;
+                 
+                    
+                    
+                }
+            }
+        }
+
+        & .parte-2{
+            padding-left:15%;
+            width: 100%;
+
+            & img{
+               justify-content: center; 
+               width: 80%;
+            }
+            & h3{
+                width: 80%;
+                margin: 0;
+                padding: 0;
+            }
+            & p{
+                width: 80%;
+                padding: 5px;
+                text-align: center;
+                justify-content: center;
+                        
+                        
+            }
+                
+        }
+        & .parte-3{
+            display: block;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+            justify-content: center;
+            & .blacklists, .text, .preview{
+                width: 80%;
+                padding: 0px;
+                padding-left: 10%;
+                margin: 0px;
+                & h3{
+                    width: 100%;
+                }
+                & p{
+                    width: 100%;
+                }
+            }
+        }
+
+        & .logos{
+            
+            
+            & img{
+                padding-left:20%;
+                padding-right: 20%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: 150px;
+            }
+        }
+
+
+        & .clipboard{    
+            padding:0px;
+            padding-top: 40px;
+            margin:0;
+            margin-bottom: 20px;
+            text-align: center;
+                
+                & h3{
+                        width: 80%;
+                        font-size: 1.5rem;
+                        padding-top: 20px;
+                        text-align: center;
+                        
+                }
+                & p{
+                        width: 80%;
+                        font-size: 15px;
+                        
+                        margin:0px;
+                        padding: 0px;
+            
+                    }
+                & .btn-1{
+                        width: 90%;
+                        letter-spacing: 1px;
+                        margin-bottom: 10px;
+                        
+                    }
+                & .btn-2{
+                        width: 90%;
+                        letter-spacing: 1px;
+                        margin-bottom: 10px;
+                            
+                    }
+
+            }
+
+    }
 
         
-        
     }
-}
+
 
 
 
@@ -394,6 +556,7 @@ $margin: 15px;
    }
     
 }
+
 
    
 
