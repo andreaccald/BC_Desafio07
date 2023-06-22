@@ -1,26 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-.main .section .parte2 h1 {
+.main .section article:nth-child(2) h1 {
   font-size: 30px;
   font-size: 30px;
   font-weight: bolder;
   display: flex;
   justify-content: center;
 }
-.main .section .parte2 p {
+.main .section article:nth-child(2) p {
   display: flex;
   justify-content: center;
 }
-.main .section .parte3 h1 {
+.main .section article:nth-child(3) h1 {
   font-size: 30px;
   margin-top: 50px;
   font-weight: bolder;
   display: flex;
   justify-content: center;
 }
-.main .section .parte3 p {
+.main .section article:nth-child(3) p {
   display: flex;
   justify-content: center;
+}
+.main .section article:nth-child(3) .grid {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /*@import './styles/l-html';

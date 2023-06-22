@@ -1,7 +1,7 @@
 $display: flex;
 .main {
     & .section {
-        & .parte2 {
+        & article:nth-child(2) {
             & h1 {
                 font-size: 30px;
                 font-size: 30px;
@@ -14,7 +14,7 @@ $display: flex;
                 justify-content: center;
             }
         }
-        & .parte3 {
+        & article:nth-child(3) {
             & h1 {
                 font-size: 30px;
                 margin-top: 50px;
@@ -25,7 +25,12 @@ $display: flex;
             & p {
                 display: $display;
                 justify-content: center;
-            }
+            }       
+            & .grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }        
+                
+            
         }
     }
 }
