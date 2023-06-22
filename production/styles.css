@@ -128,6 +128,135 @@
   font-style: 18px;
   font-family: "Bai Jamjuree", sans-serif;
 }
+.Main .parte-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.Main .parte-1 .pc {
+  width: 40%;
+  padding-left: -5%;
+}
+.Main .parte-1 .pc img {
+  padding-left: -5%;
+}
+.Main .parte-1 .derecha {
+  width: 50%;
+  height: 750px;
+  padding-top: 50px;
+  display: inline-block;
+  align-items: normal;
+  padding-left: 300px;
+}
+.Main .parte-1 .derecha h3 {
+  width: auto;
+  height: auto;
+  color: hsl(210, 10%, 33%);
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.Main .parte-1 .derecha p {
+  width: 50%;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  color: hsl(201, 11%, 66%);
+  font-family: "Bai Jamjuree", sans-serif;
+  padding-left: 20px;
+  text-align: left;
+}
+.Main .parte-2 h3 {
+  width: 100%;
+  margin-top: auto;
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 20px;
+}
+.Main .parte-2 p {
+  width: 50%;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.Main .parte-2 img {
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+.Main .blacklist h3, .Main .text h3, .Main .preview h3 {
+  height: auto;
+  margin-bottom: 5px;
+  color: hsl(210, 10%, 33%);
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 20px;
+}
+.Main .blacklist p, .Main .text p, .Main .preview p {
+  margin-top: 5px;
+  width: 80%;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 15px;
+  color: hsl(201, 11%, 66%);
+}
+.Main .logos {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.Main .clipboard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.Main .clipboard h2 {
+  margin-top: auto;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+}
+.Main .clipboard p {
+  width: 50%;
+  margin-top: auto;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  font-style: 18px;
+}
+.Main .clipboard .btn-1 {
+  color: white;
+  width: 200px;
+  height: 40px;
+  background-color: hsl(171, 66%, 44%);
+  border-color: hsl(171, 66%, 44%);
+  border: 1px solid hsl(171, 66%, 44%);
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.Main .clipboard .btn-2 {
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  border: 1px solid hsl(233, 100%, 69%);
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
 
 @media (max-width: 375px) {
   .Main .encabezado {

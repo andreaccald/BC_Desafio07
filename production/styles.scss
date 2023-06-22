@@ -163,8 +163,172 @@ $tipografia:'Bai Jamjuree', sans-serif;;
         }
     
     }
-}
 
+    & .parte-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin:auto;
+        & .pc{
+            width: 40%;
+            padding-left: -5%;
+            
+            & img{
+                
+                padding-left: -5%;
+            }
+
+        }
+
+        & .derecha{
+            width: 50%;
+            height: 750px;
+            padding-top: 50px;
+            display: inline-block;
+            align-items: normal;
+            padding-left: 300px;
+            & h3 {
+                width: auto;
+                height: auto;
+                color: $color3;
+                font-size: 18px;
+                font-family: $tipografia;
+                margin-bottom: 20px;
+                padding-left: 20px;
+            }
+
+            & p {
+                width: 50%;
+                height: auto;
+                margin-top: 0px;
+                margin-bottom: 30px;
+                font-size: 15px;
+                color: $color4;
+                font-family: $tipografia;
+                padding-left: 20px;
+                text-align: left;
+            }
+
+
+        }
+
+    }
+        & .parte-2{
+            & h3 {
+                width: 100%;
+                margin-top: auto;
+                text-align: center;
+                color: $color3;
+                font-family: $tipografia;
+                font-size: 20px;
+            }
+
+            & p {
+                width: 50%;
+                font-size: 18px;
+                color: $color4;
+                font-family: $tipografia;
+                text-align: center; 
+                padding-left: 25%;
+                padding-right: 25%;
+                
+
+            }
+
+            & img{
+                width: auto;
+                height: auto;
+                align-items: center;
+            }
+        }
+        & .blacklist, .text, .preview{
+            & h3 {
+                height: auto;
+                margin-bottom: 5px;
+                color: $color3;
+                font-family: $tipografia;
+                font-size: 20px;
+            }
+
+            & p {
+                margin-top: 5px;
+                width: 80%;
+                font-family: $tipografia;
+                font-size: 15px;
+                color: $color4;
+            }
+        
+
+        }
+
+        & .logos{
+            height: auto;
+            display: flex;
+            flex-direction: row;
+        }
+        
+
+
+    
+    
+    & .clipboard{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        font-family: $tipografia;
+        & h2{
+            margin-top: auto;
+            margin-bottom: 20px;
+            
+            font-size: 2rem;
+            color: $color3;
+            text-align: center;
+
+        }
+        & p{
+            width: 50%;
+            margin-top: auto;
+            font-family: $tipografia;
+            color: $color4;
+            text-align: center;
+            font-style: $fontSize;
+            
+
+        }
+        & .btn-1{
+            color:$color5;
+            width: 200px;
+            height: 40px;
+            background-color:$color1;
+            border-color: $color1;
+            border: 1px solid $color1;
+            border-radius: 50px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-family: $tipografia;
+                 
+            
+    }
+    & .btn-2{
+            width:200px ;
+            height: 40px;
+            color: $color5;
+            background-color: $color2;
+            border: 1px solid $color2;
+            border-radius: 50px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-family: $tipografia;
+            
+
+    }
+    
+    }
+
+}
 @media (max-width:375px){
     .Main{
         & .encabezado{
@@ -184,6 +348,10 @@ $tipografia:'Bai Jamjuree', sans-serif;;
 
             }
         }
+        
+
+        
+        
     }
 }
 
