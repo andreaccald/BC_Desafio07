@@ -1,5 +1,126 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.main .section .parte2 {
+  background-color: azure;
+}
+.main .section .parte2 h1 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: pink;
+}
+
+/*@import './styles/l-html';
+@import './styles/l-header';
+
+@import './styles/l-footer';*/
+.Body {
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.Header {
+  width: auto;
+  height: auto;
+  background-image: url(../public/images/bg-header-desktop.png);
+  background-image: 100%;
+  background-repeat: no-repeat;
+  padding: 110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+.Header .logo {
+  margin-bottom: 30px;
+  align-items: center;
+}
+.Header h1 {
+  margin-bottom: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: hsl(210, 10%, 33%);
+  font-size: 3rem;
+  text-align: center;
+}
+.Header p {
+  width: 70%;
+  margin-bottom: 40px;
+  color: #B0B6B6;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.Header.botones {
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.Header.botones.btn-1 {
+  width: 200px;
+  height: 50px;
+  background-color: hsl(171, 66%, 44%);
+  border: 1px solid;
+  border-radius: 50px;
+  margin-right: 10px;
+  box-shadow: 0px 10px 15px 1px #c2fced;
+  transition: all 500ms;
+}
+.Header.botones.btn-1:hover {
+  width: 200px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #D7F7F4;
+  background-color: #5DCCBB;
+  border: 1px solid #5AC8B5;
+  box-shadow: 0px 10px 15 1px #D0F9EC;
+}
+.Header.botones.btn-2 {
+  color: hsl(233, 100%, 69%);
+  margin-left: 10px;
+  box-shadow: 0px 10px 15px 1px #DFE3F9;
+  transition: all 500ms;
+}
+.Header.botones.btn-2:hover {
+  cursor: pointer;
+  color: #EDF7FD;
+  background-color: #8896FF;
+  border: 1px solid #8493FA;
+  box-shadow: 0px 10px 15px 1px #EAEEF4;
+}
+
+.Main {
+  font-family: "Bai Jamjuree", sans-serif;
+  padding: 110px;
+}
+.Main.parte1 {
+  display: flex;
+  text-align: center;
+}
+.Main.parte1h2 {
+  display: flex;
+  text-align: center;
+}
+.Main.parte1p {
+  color: black;
+}
+
+/*main parte dos*/
+.main .section .parte2 {
+  background-color: azure;
+}
+.main .section .parte2 h1 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: pink;
+}
+
 .footer {
   background-color: rgb(245, 246, 248);
   color: rgb(111, 113, 116);
@@ -32,84 +153,4 @@
 }
 .footer .section6 {
   grid-column: 3/4;
-}
-
-.Body {
-  width: auto;
-  height: auto;
-  margin: 0px;
-  padding: 0px;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Bai Jamjuree", sans-serif;
-}
-
-.Header {
-  width: auto;
-  height: auto;
-  background-image: url(./images/bg-header-desktop.png);
-  background-image: 100%;
-  background-repeat: no-repeat;
-  padding: 110px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-size: 18px;
-}
-.Header img {
-  margin-bottom: 30px;
-}
-.Header h1 {
-  margin-bottom: 20px;
-  color: hsl(210, 10%, 33%);
-  font-size: 2rem;
-  text-align: center;
-}
-.Header p {
-  width: 70%;
-  margin-bottom: 40px;
-  color: #B0B6B6;
-  font-size: 1.5rem;
-  text-align: center;
-}
-.Header.botones {
-  color: white;
-  font-family: "Bai Jamjuree", sans-serif;
-  font-size: 1rem;
-}
-.Header.botones.btn-1 {
-  width: 200px;
-  height: 50px;
-  background-color: hsl(171, 66%, 44%);
-  border: 1px solid;
-  border-radius: 50px;
-  margin-right: 10px;
-  box-shadow: 0px 0px 0px 1px #61C4B5, 0px 10px 15px 1px #c2fced;
-  transition: all 500ms;
-}
-.Header.botones.btn-1:hover {
-  width: 200px;
-  height: 50px;
-  border: 1px solid;
-  border-radius: 50px;
-  cursor: pointer;
-  color: #D7F7F4;
-  background-color: #5DCCBB;
-  border: 1px solid #5AC8B5;
-  box-shadow: 0px 0px 0px 1px #A0DDD4, 0px 10px 15 1px #D0F9EC;
-}
-.Header.botones.btn-2 {
-  color: hsl(233, 100%, 69%);
-  margin-left: 10px;
-  box-shadow: 0px 0px 0px 1px #8895E6, 0px 10px 15px 1px #DFE3F9;
-  transition: all 500ms;
-}
-.Header.botones.btn-2:hover {
-  cursor: pointer;
-  color: #EDF7FD;
-  background-color: #8896FF;
-  border: 1px solid #8493FA;
-  box-shadow: 0x 0px 0px 1px #B8C3F0, 0px 10px 15px 1px #EAEEF4;
 }/*# sourceMappingURL=styles.css.map */

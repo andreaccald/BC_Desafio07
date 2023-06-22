@@ -1,0 +1,23 @@
+//colors
+$color1: hsl(171, 66%, 44%);
+$color2: hsl(233, 100%, 69%);
+$color3: hsl(210, 10%, 33%);
+$color4:hsl(201, 11%, 66%);
+$color5:white;
+//fonts 
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+$fontSize:18px;
+$tipografia:'Bai Jamjuree', sans-serif;;
+
+.Body{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: $color5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: $tipografia;
+    
+}
