@@ -161,28 +161,7 @@
     font-size: 1.5rem;
     padding: 20px;
   }
-  .Main .encabezado p {
-    width: 100%;
-    font-size: 1rem;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 30px;
-  }
 }
-.Main.parte1p {
-  color: black;
-}
-
-/*main parte dos*/
-.main .section .parte2 {
-  background-color: azure;
-}
-.main .section .parte2 h1 {
-  font-size: 25px;
-  font-weight: bolder;
-  color: pink;
-}
-
 .footer {
   background-color: rgb(245, 246, 248);
   color: rgb(111, 113, 116);
