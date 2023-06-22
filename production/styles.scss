@@ -30,8 +30,6 @@ $tipografia:'Bai Jamjuree', sans-serif;;
 }
 
 .Header{
-    
-    
     width: auto;
     height: auto;
     background-image: url(../public/images/bg-header-desktop.png);
@@ -66,45 +64,68 @@ $tipografia:'Bai Jamjuree', sans-serif;;
             text-align: center;
             
         }
-        &.botones{
-            color:$color5;
-            font-family: $tipografia;
-            &.btn-1{
+    
+        & .btn-1{
+                color:$color5;
                 width: 200px;
-                height: 50px;
+                height: 40px;
                 background-color:$color1;
-                border: 1px solid;
+                border-color: $color1;
+                border: 1px solid $color1;
                 border-radius: 50px;
                 margin-right: 10px;
-                box-shadow: 0px 10px 15px 1px ;
-                transition: all 500ms;
-                &:hover {
-                    width: 200px;
-                    height: 50px;
-                    border: 1px solid;
-                    border-radius: 50px;
-                    cursor: pointer;
-                    color: #D7F7F4;
-                    background-color: $color1;
-                    border: 1px solid #5AC8B5;
-                    box-shadow: 0px 10px 15 1px #D0F9EC;
-                }
-            }
-            &.btn-2 {
-                color: $color2;
-                margin-left: 10px;
-                box-shadow: 0px 10px 15px 1px #DFE3F9;
-                transition: all 500ms;
-                &:hover {
-                cursor: pointer;
+                margin-bottom: 10px;
+                font-family: $tipografia;
+                     
+                
+        }
+        & .btn-2{
+                width:200px ;
+                height: 40px;
                 color: $color5;
                 background-color: $color2;
-                border: 1px solid;
-                box-shadow:0px 10px 15px 1px #EAEEF4;
-                }
-            }
+                border: 1px solid $color2;
+                border-radius: 50px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                font-family: $tipografia;
+                
+
         }
+
+    }       
+        
+    @media (max-width:375px){
+        .Header{
+            padding: 0px;
+            & h1{
+                font-size: 1.5rem; 
+                padding: 0px;
+            }
+            & p{
+                width: 100%;
+                font-size: 1rem;
+                padding: 0px;
+                margin:0px;
+                margin-bottom: 30px;
+            }
+            & .btn-1{
+                width: 90%;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+                
+            }
+            & .btn-2{
+                    width: 90%;
+                    letter-spacing: 1px;
+                    margin-bottom: 10px;
+                    
+            }
+            
+        }
+
     }
+    
 //MAIN
 .Main {
     width: 100%;
@@ -142,51 +163,31 @@ $tipografia:'Bai Jamjuree', sans-serif;;
         }
     
     }
-    &.article:first-child{
-        display: flexbox;
-        width: 100%;
-        height: auto;
-        margin: auto;
-        &img{
-            grid-column: 1/2;
-            height: 750px;
-            padding-top: 50px;
+}
 
-        }
-        &.info{
-            grid-column: 2/3;
-            width: 50%;
-            height: 750px;
+@media (max-width:375px){
+    .Main{
+        & .encabezado{
+            padding:5px;
             padding-top: 50px;
-            display: flex;
-            align-items: normal;
-            & h3{
-                width: auto;
-                height: auto;
-                color: $color3;
-                font-size: 18px;
-                font-family: $tipografia;
-                margin-bottom: 20px;
-                padding-left: 20px;
+            & h2{
+                font-size: 1.5rem;
+                padding: 20px;
             }
             & p{
-                width: 50%;
-                height: auto;
-                margin-top: 0px;
+                width: 100%;
+                font-size: 1rem;
+                padding: 0px;
+                margin:0px;
                 margin-bottom: 30px;
-                font-size: 15px;
-                color: $color4;
-                font-family: $tipografia;
-                padding-left: 20px;
-                text-align: left;
-                }
-        
+                
+
             }
         }
     }
-    
+}
 
-
+             
   
 
 
