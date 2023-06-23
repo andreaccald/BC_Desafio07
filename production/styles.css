@@ -1,70 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-.Main .parte2 h1 {
-  font-size: 30px;
-  font-size: 30px;
-  font-weight: bolder;
-  display: flex;
-  justify-content: center;
-}
-.Main .parte2 p {
-  display: flex;
-  justify-content: center;
-}
-.Main .parte3 h1 {
-  font-size: 30px;
-  margin-top: 50px;
-  font-weight: bolder;
-  display: flex;
-  justify-content: center;
-}
-.Main .parte3 p {
-  display: flex;
-  justify-content: center;
-}
-.Main .parte3 .grid {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.Main .parte3 .logos {
-  width: 100%;
-  width: 200px;
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  justify-content: center;
-  gap: 80px;
-}
-.Main .parte3 .logos .google {
-  width: 130px;
-}
-.Main .parte3 .logos .ibm {
-  width: 100px;
-}
-.Main .parte3 .logos .microsoft {
-  width: 140px;
-}
-.Main .parte3 .logos .hp {
-  width: 130px;
-  margin-top: -15px;
-}
-.Main .parte3 .logos .vector {
-  width: 120px;
-}
-.Main .parte3 .clipboard {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Bai Jamjuree", sans-serif;
-}
-
-/*@import './styles/l-html';
-@import './styles/l-header';
-
-@import './styles/l-footer';*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 .Body {
   width: auto;
   height: auto;
@@ -338,6 +276,15 @@
 }
 
 @media (max-width: 375px) {
+  .Main {
+    /*& img{
+        padding-left:20%;
+        padding-right: 20%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 150px;
+    }*/
+  }
   .Main .encabezado {
     padding: 0px;
     padding-top: 40px;
@@ -418,19 +365,41 @@
   .Main .parte-3 .blacklists p, .Main .parte-3 .text p, .Main .parte-3 .preview p {
     width: 100%;
   }
-  .Main .logos img {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 150px;
+  .Main .logos {
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  .Main .logos .google {
+    Width: 60%;
+  }
+  .Main .logos .ibm {
+    width: 47%;
+  }
+  .Main .logos .microsoft {
+    width: 65%;
+  }
+  .Main .logos .hp {
+    width: 60%;
+    margin-top: -12px;
+  }
+  .Main .logos .vector {
+    width: 55%;
   }
   .Main .clipboard {
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 0px;
     padding-top: 40px;
     margin: 0;
-    margin-bottom: 20px;
     text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Bai Jamjuree", sans-serif;
   }
   .Main .clipboard h3 {
     width: 80%;
@@ -455,7 +424,7 @@
     margin-bottom: 10px;
   }
 }
-.footer {
+.Footer {
   background-color: rgb(245, 246, 248);
   color: rgb(111, 113, 116);
   width: 100%;
@@ -465,26 +434,66 @@
   justify-content: center;
   font-family: "Poppins", sans-serif;
 }
-.footer .logo2 {
+.Footer .logo2 {
   margin-top: 15px;
 }
-.footer .section2 {
+.Footer .section2 {
   margin-top: 15px;
 }
-.footer .section3 {
+.Footer .section3 {
   margin-top: 15px;
 }
-.footer .section4 {
+.Footer .section4 {
   margin-top: 15px;
 }
-.footer .section5 {
+.Footer .section5 {
   grid-column: 6/7;
   margin-top: 15px;
   display: inline-flex;
 }
-.footer .section5 .iconos {
+.Footer .section5 .iconos {
   margin: 17px;
 }
-.footer .section6 {
+.Footer .section6 {
   grid-column: 3/4;
+}
+
+@media (max-width: 375px) {
+  .Footer {
+    background-color: rgb(245, 246, 248);
+    color: rgb(84, 85, 89);
+    width: 100%;
+    font-weight: bolder;
+    font-size: 18px;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Footer figure {
+    margin: 0;
+  }
+  .Footer figure .logo2 {
+    margin-top: 15px;
+  }
+  .Footer .section2 {
+    margin-top: -15px;
+  }
+  .Footer .section2 p:nth-child(1) {
+    margin-left: 27px;
+  }
+  .Footer .section3 {
+    margin-top: -35px;
+  }
+  .Footer .section3 p:nth-child(2) {
+    margin-left: 23px;
+  }
+  .Footer .section4 {
+    margin-top: -35px;
+  }
+  .Footer .section5 {
+    margin-top: -15px;
+    display: inline-flex;
+  }
 }/*# sourceMappingURL=styles.css.map */

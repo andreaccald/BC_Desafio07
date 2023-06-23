@@ -1,77 +1,108 @@
+//colors
+$color1: hsl(171, 66%, 44%);
+$color2: hsl(233, 100%, 69%);
+$color3: hsl(210, 10%, 33%);
+$color4:hsl(201, 11%, 66%);
+$color5:white;
+//fonts 
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+$fontSize:18px;
+$tipografia:'Bai Jamjuree', sans-serif;;
 
-/*.Header {
+
+   
+.Header{
     width: auto;
     height: auto;
-    background-image: url(./images/bg-header-desktop.png);
-    background-image: 100%;
+    background-image: url(../public/images/bg-header-desktop.png);
+    background-size: 100%;
     background-repeat: no-repeat;
-    padding: 110px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: $fontSize;
 
-    & img{
-        margin-bottom: 30px;
-    }
-
-    & h1{
-        margin-bottom: 20px;
+        padding: 110px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         font-family: $tipografia;
-        color: $color3;
-        font-size: 2rem;
-        text-align: center;
-    }
+        font-size: $fontSize;
+
+        & .logo{
+            margin-bottom: 30px;
+            align-items: center;
+        }
+
+        & h1{
+            margin-bottom: 20px;
+            font-family: $tipografia;
+            color: $color3;
+            font-size: 3rem;
+            text-align: center;
+        }
+        
+        & p{
+            width: 60%;
+            margin-bottom: 40px;
+            color: $color4;
+            font-size: $fontSize;
+            text-align: center;
+            
+        }
     
-    & p{
-        width: 70%;
-        margin-bottom: 40px;
-       
-        color: #B0B6B6;
-        font-size: 1.5rem;
-        text-align: center
+        & .btn-1{
+                color:$color5;
+                width: 200px;
+                height: 40px;
+                background-color:$color1;
+                border-color: $color1;
+                border: 1px solid $color1;
+                border-radius: 50px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                font-family: $tipografia;
+                     
+                
+        }
+        & .btn-2{
+                width:200px ;
+                height: 40px;
+                color: $color5;
+                background-color: $color2;
+                border: 1px solid $color2;
+                border-radius: 50px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                font-family: $tipografia;
+                
+
+        }
+    }       
+        
+    @media (max-width:375px){
+        .Header{
+            padding: 0px;
+            & h1{
+                font-size: 1.5rem; 
+                padding: 0px;
+            }
+            & p{
+                width: 100%;
+                font-size: 1rem;
+                padding: 0px;
+                margin:0px;
+                margin-bottom: 30px;
+            }
+            & .btn-1{
+                width: 90%;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+                
+            }
+            & .btn-2{
+                    width: 90%;
+                    letter-spacing: 1px;
+                    margin-bottom: 10px;
+                    
+            }
+            
+        }
+
     }
-    &.botones {
-        color: white;
-        font-family: $tipografia;
-        font-size: 1rem;
-        &.btn-1 {
-            width: 200px;
-            height: 50px;
-            background-color: $color1;
-            border: 1px solid;
-            border-radius: 50px;
-            margin-right: 10px;
-            box-shadow: 0px 0px 0px 1px #61C4B5,
-                0px 10px 15px 1px #c2fced;
-            transition: all 500ms;
-        }
-
-        &.btn-1:hover {
-            width: 200px;
-            height: 50px;
-            border: 1px solid;
-            border-radius: 50px;
-            cursor: pointer;
-            color: #D7F7F4;
-            background-color: #5DCCBB;
-            border: 1px solid #5AC8B5;
-            box-shadow: 0px 10px 15 1px #D0F9EC;
-        }
-
-        &.btn-2 {
-            color: $color2;
-            margin-left: 10px;
-            box-shadow: 0px 10px 15px 1px #DFE3F9;
-            transition: all 500ms;
-        }
-
-        &.btn-2:hover {
-            cursor: pointer;
-            color: #EDF7FD;
-            background-color: #8896FF;
-            border: 1px solid #8493FA;
-            box-shadow:0px 10px 15px 1px #EAEEF4;
-        }
-    }
-}

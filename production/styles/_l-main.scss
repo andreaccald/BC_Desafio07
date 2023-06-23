@@ -1,76 +1,418 @@
-$display:flex;
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+$fontSize:18px;
+$tipografia:'Bai Jamjuree', sans-serif;
+
+//colors
+$color1: hsl(171, 66%, 44%);
+$color2: hsl(233, 100%, 69%);
+$color3: hsl(210, 10%, 33%);
+$color4:hsl(201, 11%, 66%);
+$color5:white;
+
+
+//MAIN
 .Main {
-    & .parte2 {
-       
-            & h1 {
-                font-size: 30px;
-                font-size: 30px;
-                font-weight: bolder;
-                display: $display;
-                justify-content: center;            
-            }
-            & p {
-                display: $display;
-                justify-content: center;
-            }   
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    & .encabezado{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        & h2{
+            margin-top: auto;
+            margin-bottom: 20px;
+            font-family: $tipografia;
+            font-size: 2rem;
+            color: $color3;
+            text-align: center;
+
         }
+        & p{
+            width: 50%;
+            margin-top: auto;
         
-        & .parte3 {
-            & h1 {
-                font-size: 30px;
-                margin-top: 50px;
-                font-weight: bolder;
-                display: $display;
-                justify-content: center;
+            color: $color4;
+            text-align: center;
+            font-style: $fontSize;
+            font-family: $tipografia;
+
+        }
+    
+    }
+
+    & .parte-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-left: -5%;
+        & .pc{
+            width: 40%;
+            padding-left: -5%;
+            
+            & img{
+                
+                padding-left: -5%;
             }
+
+        }
+
+        & .derecha{
+            width: 50%;
+            height: 750px;
+            padding-top: 50px;
+            display: inline-block;
+            align-items: normal;
+            padding-left: 300px;
+            & h3 {
+                width: auto;
+                height: auto;
+                color: $color3;
+                font-size: 18px;
+                font-family: $tipografia;
+                margin-bottom: 20px;
+                padding-left: 20px;
+            }
+
             & p {
-                display: $display;
-                justify-content: center;
-            }       
-            & .grid {
-                grid-template-columns: 1fr 1fr 1fr;
-            }        
-//logos     
-            & .logos {
-                width: 100%;
-                width: 200px;
+                width: 50%;
                 height: auto;
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-                justify-content: center;
-                gap: 80px;
-
-                    & .google {
-                        width:130px;
-                    }
-                    & .ibm {
-                        width: 100px;
-                    }
-                    & .microsoft {
-                        width: 140px;
-                    }
-                    & .hp {
-                        width: 130px;
-                        margin-top: -15px;
-                    }
-                    & .vector {
-                        width: 120px;
-                    }
-                }    
-            & .clipboard {
-                margin-top: 100px;
-                margin-bottom: 100px;
-                width: 100%;
-                height: auto;
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-                font-family: "Bai Jamjuree", sans-serif;
+                margin-top: 0px;
+                margin-bottom: 30px;
+                font-size: 15px;
+                color: $color4;
+                font-family: $tipografia;
+                padding-left: 20px;
+                text-align: left;
             }
 
+
+        }
+
+    }
+        & .parte-2{
+            & h3 {
+                width: 100%;
+                margin-top: auto;
+                text-align: center;
+                color: $color3;
+                font-family: $tipografia;
+                font-size: 20px;
+            }
+
+            & p {
+                width: 50%;
+                font-size: 18px;
+                color: $color4;
+                font-family: $tipografia;
+                text-align: center; 
+                padding-left: 25%;
+                padding-right: 25%;
+                
+
+            }
+
+            & img{
+                width: auto;
+                height: auto;
+                align-items: center;
+            }
+        }
+
+        & .parte-3{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+
+
+            & .blacklists, .text, .preview{
+                width: 30%;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+                height: 230px;
+                justify-content: center;
+
+                & img{
+                    width: 20%;
+                    padding-right: 20%;
+                }
+                                
+                & h3 {
+                    width: 80%;
+                    height: auto;
+                    margin-bottom: 5px;
+                    color: $color3;
+                    font-family: $tipografia;
+                    font-size: 1.2rem;
+                }
+
+                & p {
+                    margin-top: 5px;
+                    width: 80%;
+                    font-family: $tipografia;
+                    font-size: 1rem;
+                    color: $color4;
+                }
+            
+
+            }
+        }
+
+        & .logos{
+            width: 100%;
+            height: auto;
+       }
+                
+    
+               
+    
+    & .clipboard{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        font-family: $tipografia;
+        & h2{
+            margin-top: auto;
+            margin-bottom: 20px;
+            
+            font-size: 2rem;
+            color: $color3;
+            text-align: center;
+
+        }
+        & p{
+            width: 50%;
+            margin-top: auto;
+            font-family: $tipografia;
+            color: $color4;
+            text-align: center;
+            font-style: $fontSize;
+            
+
+        }
+        & .btn-1{
+            color:$color5;
+            width: 200px;
+            height: 40px;
+            background-color:$color1;
+            border-color: $color1;
+            border: 1px solid $color1;
+            border-radius: 50px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-family: $tipografia;
+                 
+            
+    }
+    & .btn-2{
+            width:200px ;
+            height: 40px;
+            color: $color5;
+            background-color: $color2;
+            border: 1px solid $color2;
+            border-radius: 50px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-family: $tipografia;
+        }
+            
+
+    }
+    
+    }
+
+
+@media (max-width:375px){
+    .Main{
+        & .encabezado{
+            padding:0px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin:0;
+            margin-bottom: 20px;
+        
+            & h2{
+                font-size: 1.5rem;
+                padding-top: 20px;
                 
             }
+            & p{
+                font-size: 15px;
+                width: 80%;
+                margin:0px;
+                padding: 0px;
+
+            }
+          
+        }
+
+        & .parte-1{
+            display: block;
+            
+            justify-content: center;
+            & .pc{
+              
+                & img{
+                    width: 80%;
+                    margin-left: 10%;
+                    
+                    
+                }
+            }
+                
+            & .derecha{
+                width: 100%;
+                padding: 0px;
+                padding-bottom: 0px;
+                margin: 0;
+                text-align: center;
+                justify-content: center;
+                & h3{
+                    width: 80%;
+                }
+                & p{
+                    width: 80%;
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+        & .parte-2{
+            padding-left:15%;
+            width: 100%;
+
+            & img{
+               justify-content: center; 
+               width: 80%;
+            }
+            & h3{
+                width: 80%;
+                margin: 0;
+                padding: 0;
+            }
+            & p{
+                width: 80%;
+                padding: 5px;
+                text-align: center;
+                justify-content: center;
+                        
+                        
+            }
+                
+        }
+        & .parte-3{
+            display: block;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+            justify-content: center;
+            & .blacklists, .text, .preview{
+                width: 80%;
+                padding: 0px;
+                padding-left: 10%;
+                margin: 0px;
+                & h3{
+                    width: 100%;
+                }
+                & p{
+                    width: 100%;
+                }
+            }
+        }
+        //logos
+
+        .logos {
+            margin-left: 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            justify-content: center;
+                     & .google {
+                        Width:60%;
+                    }
+                    & .ibm {
+                        width: 47%;
+                    }
+                    & .microsoft {
+                        width: 65%;
+                    }
+                    & .hp {
+                        width: 60%;
+                        margin-top: -12px;
+                    }
+                    & .vector {
+                        width: 55%;
+                    }   
+            }   
+            
+            /*& img{
+                padding-left:20%;
+                padding-right: 20%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: 150px;
+            }*/
+        
+
+
+        & .clipboard{    
+            margin-top: 100px;
+            margin-bottom: 100px;
+            padding:0px;
+            padding-top: 40px;
+            margin:0;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-family: "Bai Jamjuree", sans-serif;
+                
+                & h3{
+                        width: 80%;
+                        font-size: 1.5rem;
+                        padding-top: 20px;
+                        text-align: center;
+                        
+                }
+                & p{
+                        width: 80%;
+                        font-size: 15px;
+                        
+                        margin:0px;
+                        padding: 0px;
+            
+                    }
+                & .btn-1{
+                        width: 90%;
+                        letter-spacing: 1px;
+                        margin-bottom: 10px;
+                        
+                    }
+                & .btn-2{
+                        width: 90%;
+                        letter-spacing: 1px;
+                        margin-bottom: 10px;
+                            
+                    }
+
+            }
+
+    }
+
+}        
     
-}
-
-

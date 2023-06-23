@@ -1,7 +1,9 @@
 $margin: 15px;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+$margin: 15px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-.footer {
+.Footer {
     background-color: rgb(245, 246, 248);
     color: rgb(111, 113, 116);
     width: 100%;
@@ -38,7 +40,50 @@ $margin: 15px;
    }
     
 }
+
+
    
+
+@media  (max-width:375px) {
+    .Footer {
+        background-color: rgb(245, 246, 248);
+	    color: rgb(84, 85, 89);
+	    width: 100%;
+	    font-weight: bolder;
+	    font-size: 18px;
+	    gap: 20px;
+	    font-family: "Poppins", sans-serif;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+
+        & figure {
+            margin: 0;
+            & .logo2 {
+                margin-top:15px;
+            }
+        }
+        & .section2 {
+            margin-top: -15px;
+            & p:nth-child(1) {
+                margin-left: 27px;
+            }
+        }
+        & .section3 {
+            margin-top: -35px;
+            & p:nth-child(2) {
+                margin-left: 23px;
+            }
+         }
+        & .section4 {
+            margin-top: -35px;
+        }
+        & .section5 {
+            margin-top: -15px;
+            display: inline-flex
+        } 
+    }
+}
 
 
 
