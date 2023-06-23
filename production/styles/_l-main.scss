@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 $fontSize:18px;
 $tipografia:'Bai Jamjuree', sans-serif;
@@ -18,6 +19,7 @@ $color5:white;
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-family: $tipografia;
 
     & .encabezado{
         width: 100%;
@@ -34,11 +36,13 @@ $color5:white;
             color: $color3;
             text-align: center;
 
+
         }
         & p{
             width: 50%;
             margin-top: auto;
         
+
             color: $color4;
             text-align: center;
             font-style: $fontSize;
@@ -93,9 +97,7 @@ $color5:white;
                 text-align: left;
             }
 
-
         }
-
     }
         & .parte-2{
             & h3 {
@@ -167,71 +169,89 @@ $color5:white;
             }
         }
 
-        & .logos{
-            width: 100%;
-            height: auto;
-       }
-                
-    
-               
-    
-    & .clipboard{
-        width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 40px;
-        font-family: $tipografia;
-        & h2{
-            margin-top: auto;
-            margin-bottom: 20px;
+        & .logos {
+            margin-left: 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            justify-content: center;
+                     & .google {
+                        Width:60%;
+                    }
+                    & .ibm {
+                        width: 47%;
+                    }
+                    & .microsoft {
+                        width: 65%;
+                    }
+                    & .hp {
+                        width: 60%;
+                        margin-top: -12px;
+                    }
+                    & .vector {
+                        width: 55%;
+                    }   
+            }   
+        & .clipboard {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-family: "Bai Jamjuree", sans-serif;
             
-            font-size: 2rem;
-            color: $color3;
-            text-align: center;
+       
+                & h2{
+                    margin-top: auto;
+                    margin-bottom: 20px;
+                    
+                    font-size: 2rem;
+                    color: $color3;
+                    text-align: center;
 
-        }
-        & p{
-            width: 50%;
-            margin-top: auto;
-            font-family: $tipografia;
-            color: $color4;
-            text-align: center;
-            font-style: $fontSize;
-            
+                }
+                & p{
+                    width: 50%;
+                    margin-top: auto;
+                    font-family: $tipografia;
+                    color: $color4;
+                    text-align: center;
+                    font-style: $fontSize;
+                    
 
-        }
-        & .btn-1{
-            color:$color5;
-            width: 200px;
-            height: 40px;
-            background-color:$color1;
-            border-color: $color1;
-            border: 1px solid $color1;
-            border-radius: 50px;
-            margin-right: 10px;
-            margin-bottom: 10px;
-            font-family: $tipografia;
-                 
-            
-    }
-    & .btn-2{
-            width:200px ;
-            height: 40px;
-            color: $color5;
-            background-color: $color2;
-            border: 1px solid $color2;
-            border-radius: 50px;
-            margin-right: 10px;
-            margin-bottom: 10px;
-            font-family: $tipografia;
-        }
-            
+                }
+                & .btn-1{
+                    color:$color5;
+                    width: 200px;
+                    height: 40px;
+                    background-color:$color1;
+                    border-color: $color1;
+                    border: 1px solid $color1;
+                    border-radius: 50px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    font-family: $tipografia;
+                        
+                    
+            }
+            & .btn-2{
+                    width:200px ;
+                    height: 40px;
+                    color: $color5;
+                    background-color: $color2;
+                    border: 1px solid $color2;
+                    border-radius: 50px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    font-family: $tipografia;
+                }
+                    
 
-    }
+            }
     
-    }
+        }
+
 
 
 @media (max-width:375px){
@@ -247,6 +267,7 @@ $color5:white;
                 font-size: 1.5rem;
                 padding-top: 20px;
                 
+
             }
             & p{
                 font-size: 15px;
@@ -335,7 +356,7 @@ $color5:white;
         }
         //logos
 
-        .logos {
+        & .logos {
             margin-left: 5%;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -358,13 +379,7 @@ $color5:white;
                     }   
             }   
             
-            /*& img{
-                padding-left:20%;
-                padding-right: 20%;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                width: 150px;
-            }*/
+            
         
 
 
@@ -380,7 +395,7 @@ $color5:white;
             display: flex;
             align-items: center;
             flex-direction: column;
-            font-family: "Bai Jamjuree", sans-serif;
+            font-family: $tipografia;
                 
                 & h3{
                         width: 80%;
@@ -416,3 +431,6 @@ $color5:white;
 
 }        
     
+            
+    
+
