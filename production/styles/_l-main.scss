@@ -1,5 +1,5 @@
 $display:flex;
-.main {
+.Main {
     & .parte2 {
        
             & h1 {
@@ -41,7 +41,7 @@ $display:flex;
                 gap: 80px;
 
                     & .google {
-                        Width:130px;
+                        width:130px;
                     }
                     & .ibm {
                         width: 100px;

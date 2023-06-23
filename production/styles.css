@@ -1,31 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-.main .parte2 h1 {
+.Main .parte2 h1 {
   font-size: 30px;
   font-size: 30px;
   font-weight: bolder;
   display: flex;
   justify-content: center;
 }
-.main .parte2 p {
+.Main .parte2 p {
   display: flex;
   justify-content: center;
 }
-.main .parte3 h1 {
+.Main .parte3 h1 {
   font-size: 30px;
   margin-top: 50px;
   font-weight: bolder;
   display: flex;
   justify-content: center;
 }
-.main .parte3 p {
+.Main .parte3 p {
   display: flex;
   justify-content: center;
 }
-.main .parte3 .grid {
+.Main .parte3 .grid {
   grid-template-columns: 1fr 1fr 1fr;
 }
-.main .parte3 .logos {
+.Main .parte3 .logos {
   width: 100%;
   width: 200px;
   height: auto;
@@ -34,23 +34,23 @@
   justify-content: center;
   gap: 80px;
 }
-.main .parte3 .logos .google {
-  Width: 130px;
+.Main .parte3 .logos .google {
+  width: 130px;
 }
-.main .parte3 .logos .ibm {
+.Main .parte3 .logos .ibm {
   width: 100px;
 }
-.main .parte3 .logos .microsoft {
+.Main .parte3 .logos .microsoft {
   width: 140px;
 }
-.main .parte3 .logos .hp {
+.Main .parte3 .logos .hp {
   width: 130px;
   margin-top: -15px;
 }
-.main .parte3 .logos .vector {
+.Main .parte3 .logos .vector {
   width: 120px;
 }
-.main .parte3 .clipboard {
+.Main .parte3 .clipboard {
   margin-top: 100px;
   margin-bottom: 100px;
   width: 100%;
