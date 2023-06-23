@@ -1,31 +1,71 @@
 $margin: 15px;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-
-
 .Footer {
     background-color: rgb(245, 246, 248);
     color: rgb(111, 113, 116);
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 10px 1fr;
-    gap: 20px; 
-    justify-content: center;
-     font-family: 'Poppins', sans-serif;
+    height: 120px;
+    margin-bottom: 0px;
+    border-top: 1px solid #F3F4F6;
+    background-color: #F5F6F8;
+    display: flex;
+    flex-direction: row;
+    font-family: $tipografia;
     
    & .logo2 {
-    margin-top: $margin;
-    
+        width: 50px;
+        height: 50px;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+       
    } 
    & .section2{
-    margin-top: $margin;
-   
-   }
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        & ul {
+            list-style: none;
+
+            & li{
+                margin-bottom: 10px;
+                
+                color: $color3;
+                text-decoration: none;
+                font-family: $tipografia;
+            }
+        }
+    }
    & .section3 {
-    margin-top: $margin;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    & ul{
+        list-style: none;
+        & li{
+            margin-bottom: 10px;
+            color: $color3;
+            font-family: $tipografia;
+        }
+    }
    }
    & .section4 {
-    margin-top: $margin;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        & ul{
+            list-style: none;
+            & li{
+                margin-bottom: 10px;
+                color: $color3;
+                font-family: $tipografia;
+            }
+        }
    }
    & .section5 {
     grid-column: 6/7;
@@ -36,7 +76,16 @@ $margin: 15px;
         }
    }
    & .section6 {
-    grid-column: 3/4;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+
+        & img{
+            padding-right: 20px;
+            transition: all 500m;
+        }
+
    }
     
 }
@@ -85,7 +134,6 @@ $margin: 15px;
 }
 
     
-<<<<<<< HEAD
 
 @media  (max-width:375px) {
     .Footer {
@@ -127,8 +175,6 @@ $margin: 15px;
         } 
     }
 }
-=======
->>>>>>> c848b3f125bc3575c6f6e247df25311d7e848d99
 
 
 

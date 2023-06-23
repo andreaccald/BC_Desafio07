@@ -438,23 +438,64 @@
   background-color: rgb(245, 246, 248);
   color: rgb(111, 113, 116);
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 10px 1fr;
-  gap: 20px;
-  justify-content: center;
-  font-family: "Poppins", sans-serif;
+  height: 120px;
+  margin-bottom: 0px;
+  border-top: 1px solid #F3F4F6;
+  background-color: #F5F6F8;
+  display: flex;
+  flex-direction: row;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 .Footer .logo2 {
-  margin-top: 15px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .Footer .section2 {
-  margin-top: 15px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Footer .section2 ul {
+  list-style: none;
+}
+.Footer .section2 ul li {
+  margin-bottom: 10px;
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 .Footer .section3 {
-  margin-top: 15px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Footer .section3 ul {
+  list-style: none;
+}
+.Footer .section3 ul li {
+  margin-bottom: 10px;
+  color: hsl(210, 10%, 33%);
+  font-family: "Bai Jamjuree", sans-serif;
 }
 .Footer .section4 {
-  margin-top: 15px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Footer .section4 ul {
+  list-style: none;
+}
+.Footer .section4 ul li {
+  margin-bottom: 10px;
+  color: hsl(210, 10%, 33%);
+  font-family: "Bai Jamjuree", sans-serif;
 }
 .Footer .section5 {
   grid-column: 6/7;
@@ -465,7 +506,14 @@
   margin: 17px;
 }
 .Footer .section6 {
-  grid-column: 3/4;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.Footer .section6 img {
+  padding-right: 20px;
+  transition: all 500m;
 }
 
 @media screen and (max-width: 375px) {
