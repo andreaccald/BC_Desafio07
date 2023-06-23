@@ -1,7 +1,7 @@
-$display: flex;
+$display:flex;
 .main {
-    & .section {
-        & article:nth-child(2) {
+    & .parte2 {
+       
             & h1 {
                 font-size: 30px;
                 font-size: 30px;
@@ -12,9 +12,10 @@ $display: flex;
             & p {
                 display: $display;
                 justify-content: center;
-            }
+            }   
         }
-        & article:nth-child(3) {
+        
+        & .parte3 {
             & h1 {
                 font-size: 30px;
                 margin-top: 50px;
@@ -29,8 +30,47 @@ $display: flex;
             & .grid {
                 grid-template-columns: 1fr 1fr 1fr;
             }        
+//logos     
+            & .logos {
+                width: 100%;
+                width: 200px;
+                height: auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                justify-content: center;
+                gap: 80px;
+
+                    & .google {
+                        Width:130px;
+                    }
+                    & .ibm {
+                        width: 100px;
+                    }
+                    & .microsoft {
+                        width: 140px;
+                    }
+                    & .hp {
+                        width: 130px;
+                        margin-top: -15px;
+                    }
+                    & .vector {
+                        width: 120px;
+                    }
+                }    
+            & .clipboard {
+                margin-top: 100px;
+                margin-bottom: 100px;
+                width: 100%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                font-family: "Bai Jamjuree", sans-serif;
+            }
+
                 
-            
-        }
-    }
+            }
+    
 }
+
+

@@ -1,29 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-.main .section article:nth-child(2) h1 {
+.main .parte2 h1 {
   font-size: 30px;
   font-size: 30px;
   font-weight: bolder;
   display: flex;
   justify-content: center;
 }
-.main .section article:nth-child(2) p {
+.main .parte2 p {
   display: flex;
   justify-content: center;
 }
-.main .section article:nth-child(3) h1 {
+.main .parte3 h1 {
   font-size: 30px;
   margin-top: 50px;
   font-weight: bolder;
   display: flex;
   justify-content: center;
 }
-.main .section article:nth-child(3) p {
+.main .parte3 p {
   display: flex;
   justify-content: center;
 }
-.main .section article:nth-child(3) .grid {
+.main .parte3 .grid {
   grid-template-columns: 1fr 1fr 1fr;
+}
+.main .parte3 .logos {
+  width: 100%;
+  width: 200px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 80px;
+}
+.main .parte3 .logos .google {
+  Width: 130px;
+}
+.main .parte3 .logos .ibm {
+  width: 100px;
+}
+.main .parte3 .logos .microsoft {
+  width: 140px;
+}
+.main .parte3 .logos .hp {
+  width: 130px;
+  margin-top: -15px;
+}
+.main .parte3 .logos .vector {
+  width: 120px;
+}
+.main .parte3 .clipboard {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
 /*@import './styles/l-html';
