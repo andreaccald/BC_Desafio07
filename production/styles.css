@@ -376,26 +376,14 @@
     width: 100%;
   }
   .Main .logos {
-    margin-left: 5%;
+    margin-left: 10%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
   }
-  .Main .logos .google {
-    Width: 60%;
-  }
-  .Main .logos .ibm {
-    width: 47%;
-  }
-  .Main .logos .microsoft {
-    width: 65%;
-  }
-  .Main .logos .hp {
+  .Main .logos img {
     width: 60%;
-    margin-top: -12px;
-  }
-  .Main .logos .vector {
-    width: 55%;
+    margin: 15px;
   }
   .Main .clipboard {
     margin-top: 100px;
@@ -557,6 +545,7 @@
 }
 @media (max-width: 375px) {
   .Footer {
+    height: 100%;
     background-color: rgb(245, 246, 248);
     color: rgb(84, 85, 89);
     width: 100%;

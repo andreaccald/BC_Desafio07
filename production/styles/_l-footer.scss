@@ -32,7 +32,6 @@ $margin: 15px;
 
             & li{
                 margin-bottom: 10px;
-                
                 color: $color3;
                 text-decoration: none;
                 font-family: $tipografia;
@@ -137,6 +136,7 @@ $margin: 15px;
 
 @media  (max-width:375px) {
     .Footer {
+        height: 100%;
         background-color: rgb(245, 246, 248);
 	    color: rgb(84, 85, 89);
 	    width: 100%;

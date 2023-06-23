@@ -357,26 +357,16 @@ $color5:white;
         //logos
 
         & .logos {
-            margin-left: 5%;
+            margin-left: 10%;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr ;
             justify-content: center;
-                     & .google {
-                        Width:60%;
-                    }
-                    & .ibm {
-                        width: 47%;
-                    }
-                    & .microsoft {
-                        width: 65%;
-                    }
-                    & .hp {
-                        width: 60%;
-                        margin-top: -12px;
-                    }
-                    & .vector {
-                        width: 55%;
-                    }   
+                & img{
+                     width: 60%;
+                     margin: 15px;
+                }
+                     
+                    
             }   
             
             
